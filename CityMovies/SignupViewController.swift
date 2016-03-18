@@ -1,56 +1,31 @@
 //
-//  LoginViewController.swift
+//  SignupViewController.swift
 //  CityMovies
 //
-//  Created by Deepthi Kaligi on 17/03/2016.
+//  Created by Deepthi Kaligi on 18/03/2016.
 //  Copyright © 2016 MightyDevelopers. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController, UITextFieldDelegate {
+class SignupViewController: UIViewController, UITextFieldDelegate {
     let kOFFSET_FOR_KEYBOARD : CGFloat = 80.0
 
     
-    @IBOutlet weak var usernameTextField : UITextField!
-    @IBOutlet weak var passwordTextField : UITextField!
-    @IBOutlet weak var loginButton : UIButton!
-    @IBOutlet weak var registerButton : UIButton!
-    @IBOutlet weak var imageView : UIImageView!
-    
-    @IBOutlet weak var menuButton : UIBarButtonItem!
-    
-    var isUserRegistered  = false
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if self.revealViewController() != nil {
-            menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
 
-        loginButton.titleLabel?.text = "Login"
-        loginButton.setNeedsDisplay()
-
+        // Do any additional setup after loading the view.
     }
 
-    
-    @IBAction func registerButtonTapped() {
-        
-        // can do some registration calls backend here
-        
-        
-    }
-    
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         view.endEditing(true)
     }
     
+    
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
+          textField.resignFirstResponder()
         return true
     }
     
@@ -129,5 +104,5 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
 
-  
+    
 }

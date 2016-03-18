@@ -98,6 +98,7 @@
 		7587851F1C98042E003F1683 /* rightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587851E1C98042E003F1683 /* rightViewController.swift */; };
 		758785231C9809C0003F1683 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758785221C9809C0003F1683 /* SWRevealViewController.m */; };
 		758785291C98205E003F1683 /* PinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758785281C98205E003F1683 /* PinkTableViewController.swift */; };
+		75D502D51C9BC4E000C48BF2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D502D41C9BC4E000C48BF2 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +197,7 @@
 		758785211C9809C0003F1683 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		758785221C9809C0003F1683 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		758785281C98205E003F1683 /* PinkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkTableViewController.swift; sourceTree = "<group>"; };
+		75D502D41C9BC4E000C48BF2 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				7587851E1C98042E003F1683 /* rightViewController.swift */,
 				752C08351C96990A0088F1D5 /* ViewController.swift */,
 				752C08371C96990A0088F1D5 /* Main.storyboard */,
+				75D502D41C9BC4E000C48BF2 /* SignupViewController.swift */,
 				753EDBD11C9AB29E0034FD4A /* SettingsViewController.swift */,
 				753EDBCF1C9A9A1A0034FD4A /* FeedbaclViewController.swift */,
 				753EDBCD1C9A90820034FD4A /* LoginViewController.swift */,
@@ -536,6 +539,7 @@
 				753EDBD21C9AB29E0034FD4A /* SettingsViewController.swift in Sources */,
 				7587851A1C9801A0003F1683 /* SlideMenuController.swift in Sources */,
 				753EDBD01C9A9A1A0034FD4A /* FeedbaclViewController.swift in Sources */,
+				75D502D51C9BC4E000C48BF2 /* SignupViewController.swift in Sources */,
 				7547597B1C96BE04007D5350 /* MainCollectionViewController.swift in Sources */,
 				752C08361C96990A0088F1D5 /* ViewController.swift in Sources */,
 				7547599D1C96F0E2007D5350 /* TheatreCollectionViewCell.swift in Sources */,
